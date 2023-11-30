@@ -19,6 +19,7 @@ public class Game {
         System.out.println("Запуск игры \"Поле Чудес\" - подготовка к игре.\n" +
                 "Вам нужно ввести вопросы и ответы для игры.");
 
+        // Получение вопросов и ответов
         for (int i = 1; i <= numberRounds; i++) {
             System.out.println("Введите вопрос #" + i);
             questions[i] = scanner.nextLine();
