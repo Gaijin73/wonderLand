@@ -20,10 +20,10 @@ public class Game {
                 "Вам нужно ввести вопросы и ответы для игры.");
 
         // Получение вопросов и ответов
-        for (int i = 1; i <= numberRounds; i++) {
-            System.out.println("Введите вопрос #" + i);
+        for (int i = 0; i < numberRounds; i++) {
+            System.out.println("Введите вопрос #" + (i + 1));
             questions[i] = scanner.nextLine();
-            System.out.println("Введите ответ на вопрос #" + i);
+            System.out.println("Введите ответ на вопрос #" + (i + 1));
             answers[i] = scanner.nextLine();
         }
 
